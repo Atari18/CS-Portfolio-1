@@ -340,7 +340,7 @@ def display_image(pet_instance, extra=""):
         answer = input(
             print_letter_by_letter(f"Would you like to see an image of {pet_instance.name}? [Y/N] ", True)).upper()
 
-    image_path = f"pet_images/{pet_instance.pet_type}{extra}.png"
+    image_path = f"pet-images/{pet_instance.pet_type}{extra}.png"
 
     if answer == "Y":
         try:
