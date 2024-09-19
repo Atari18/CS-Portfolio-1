@@ -74,7 +74,7 @@ def print_letter_by_letter(input_string, no_new_line=False):
     """
     for letter in input_string:
         print(letter, end="")
-        sleep(0.01)
+        sleep(0.04)
     if not no_new_line:
         print("\n")
     return ""
